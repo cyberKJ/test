@@ -6,12 +6,27 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
+<h1>Welcome</h1>
 <h1>This is a Test</h1>
 <p>Hello World</p>
   <h3>personal github</h3>
   <a href = "mailto:ksmithcyber@gmail.com">Email</a>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius necessitatibus fugit atque repudiandae nam quos, sapiente optio velit? Aliquid blanditiis iusto repellat 
-  reiciendis aspernatur atque tempora dolorem maiores ipsum perspiciatis.</p>
+<p>February 2025</p>
+<button>Click me</button>
+  <script>
+   
+   document.querySelector('button').addEventListener("click", runFun);
+
+function runFun() {
+  document.title = "Kristi Changed!";
+  document.body.style.backgroundColor="pink";
+  let text = "Welcome Friend";
+  document.querySelector('h1').textContent = text; 
+  //querySelector when you only need first matching element, 
+  // use querySelectorAll when you need to work with multiple 
+  // elements that match the selector.
+}
+
+  </script>
 </body>
 </html>
