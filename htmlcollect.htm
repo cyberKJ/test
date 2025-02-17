@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to KJ's test site</title>
+
+</head>
+<body>
+
+<p>February 2025</p>
+<button>Click me</button>
+
+<script>
+// returns an HTMLCollection
+const paragraphs = document.getElementsByTagName('p')
+
+console.log("BEFORE UPDATE: ", paragraphs)
+
+const newParagraph = document.createElement('p')
+document.body.appendChild(newParagraph)
+
+console.log("AFTER UPDATE: ", paragraphs)
+</script>
+</body>
+</html>
